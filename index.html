@@ -9,9 +9,39 @@
   </head>
 
   <body>
-    <div id="circulo"></div>
-    <div class="cuadrado"></div>
-    <div class="cuadrado"></div>
+    <div id="contenedor">
+
+      <div id="MensajesError"></div>
+
+      <div class="elemento-formulario">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="correo@com">
+      </div>
+
+      <div class="elemento-formulario">
+        <label for="telefono">Telefono</label>
+        <input type="text" name="telefono" id="telefono" placeholder="11-11-22-33">
+      </div>
+
+      <div class="elemento-formulario">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+
+      <div class="elemento-formulario">
+        <label for="confirm">Confirm password</label>
+        <input type="password" name="confirm" id="confirm">
+      </div>
+
+      <div class="elemento-formulario">
+        <input type="submit" id="BotonEnviar" value="Dar de alta">
+
+      </div>
+
+      <div id="mensajexito"></div>
+
+    </div>
+
     <script src="js/query_script.js"></script>
 
   </body>
